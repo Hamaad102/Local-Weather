@@ -1,0 +1,32 @@
+h1 {
+    font-family: NordR;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 8vw;
+    padding-top: 15vw;
+}
+
+p {
+    font-family: NordL;
+    color: white;
+    font-size: 3vw;
+    padding-top: 5vw;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: NordR;
+    src: url('../fonts/NordMedium.ttf');
+}
+
+@font-face {
+    font-family: NordL;
+    src: url('../fonts/NordLight.ttf');
+}
